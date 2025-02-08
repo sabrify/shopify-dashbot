@@ -1,0 +1,36 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "22d8de28474382e3b36d91d26ba8fc37"
+application_url = "https://islamic-root-organisations-learning.trycloudflare.com"
+embedded = true
+name = "dashbot-app"
+handle = "dashbot-app"
+
+[webhooks]
+api_version = "2025-01"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://islamic-root-organisations-learning.trycloudflare.com/auth/callback",
+  "https://islamic-root-organisations-learning.trycloudflare.com/auth/shopify/callback",
+  "https://islamic-root-organisations-learning.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "mvptestingstore.myshopify.com"
+automatically_update_urls_on_dev = true
