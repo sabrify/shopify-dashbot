@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "22d8de28474382e3b36d91d26ba8fc37"
-application_url = "https://islamic-root-organisations-learning.trycloudflare.com"
+application_url = "https://structures-paul-mba-oem.trycloudflare.com"
 embedded = true
 name = "dashbot-app"
 handle = "dashbot-app"
@@ -19,13 +19,13 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_products,read_orders,write_orders,read_metaobject_definitions,write_metaobject_definitions,read_metaobjects,write_metaobjects,read_customers,write_customers"
 
 [auth]
 redirect_urls = [
-  "https://islamic-root-organisations-learning.trycloudflare.com/auth/callback",
-  "https://islamic-root-organisations-learning.trycloudflare.com/auth/shopify/callback",
-  "https://islamic-root-organisations-learning.trycloudflare.com/api/auth/callback"
+  "https://structures-paul-mba-oem.trycloudflare.com/auth/callback",
+  "https://structures-paul-mba-oem.trycloudflare.com/auth/shopify/callback",
+  "https://structures-paul-mba-oem.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
@@ -34,3 +34,4 @@ embedded = false
 [build]
 dev_store_url = "mvptestingstore.myshopify.com"
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true
