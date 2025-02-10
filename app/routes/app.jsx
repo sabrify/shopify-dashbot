@@ -22,7 +22,7 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-        <Link to="/app/settings">Setting page</Link>
+        <Link to="/app/settings">Settings</Link>
         <Link to="/app/data_fetch">Data Source Fetching</Link>
       </NavMenu>
       <Outlet />

@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "22d8de28474382e3b36d91d26ba8fc37"
-application_url = "https://structures-paul-mba-oem.trycloudflare.com"
+application_url = "https://invitation-lined-nearest-keeps.trycloudflare.com"
 embedded = true
 name = "dashbot-app"
 handle = "dashbot-app"
@@ -23,9 +23,9 @@ scopes = "write_products,read_products,read_orders,write_orders,read_metaobject_
 
 [auth]
 redirect_urls = [
-  "https://structures-paul-mba-oem.trycloudflare.com/auth/callback",
-  "https://structures-paul-mba-oem.trycloudflare.com/auth/shopify/callback",
-  "https://structures-paul-mba-oem.trycloudflare.com/api/auth/callback"
+  "https://invitation-lined-nearest-keeps.trycloudflare.com/auth/callback",
+  "https://invitation-lined-nearest-keeps.trycloudflare.com/auth/shopify/callback",
+  "https://invitation-lined-nearest-keeps.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
