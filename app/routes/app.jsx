@@ -23,7 +23,10 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/settings">Settings</Link>
-        <Link to="/app/data_fetch">Data Source Fetching</Link>
+        <Link to="/app/fetch_products">Data Source Fetching</Link>
+        <Link to="/app/fetch_all">All</Link>
+
+        
       </NavMenu>
       <Outlet />
     </AppProvider>

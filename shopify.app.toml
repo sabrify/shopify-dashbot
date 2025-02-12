@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "22d8de28474382e3b36d91d26ba8fc37"
-application_url = "https://invitation-lined-nearest-keeps.trycloudflare.com"
+application_url = "https://hosting-anime-butts-inspector.trycloudflare.com"
 embedded = true
 name = "dashbot-app"
 handle = "dashbot-app"
@@ -19,13 +19,13 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products,read_products,read_orders,write_orders,read_metaobject_definitions,write_metaobject_definitions,read_metaobjects,write_metaobjects,read_customers,write_customers"
+scopes = "write_products,read_products,read_all_orders,read_orders,write_orders,read_metaobject_definitions,write_metaobject_definitions,read_metaobjects,write_metaobjects,read_customers,write_customers"
 
 [auth]
 redirect_urls = [
-  "https://invitation-lined-nearest-keeps.trycloudflare.com/auth/callback",
-  "https://invitation-lined-nearest-keeps.trycloudflare.com/auth/shopify/callback",
-  "https://invitation-lined-nearest-keeps.trycloudflare.com/api/auth/callback"
+  "https://hosting-anime-butts-inspector.trycloudflare.com/auth/callback",
+  "https://hosting-anime-butts-inspector.trycloudflare.com/auth/shopify/callback",
+  "https://hosting-anime-butts-inspector.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
